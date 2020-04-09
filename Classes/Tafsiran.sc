@@ -81,5 +81,10 @@ Tafsiran {
 		}, false)
 	}
 
+	// EventArray support
+
+	deepFindRule { arg list, index=0;
+		^rules.deepFindRule(list, index)
+	}
 
 }
